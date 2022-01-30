@@ -21,7 +21,7 @@
 
 
 ## Install package with npm
-```npm i package-apigratis```
+```npm install apigratis --unsafe-perm```
 
 ## Status developing
 
