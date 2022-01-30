@@ -3,8 +3,8 @@
 
 ![APIGratis Banner](https://i.imgur.com/u6hYLsU.png)
 
-[![latest stable version](https://poser.pugx.org/jhowbhz/apigratis/v/stable.svg)](https://www.npmjs.com/package/@jhowbhz/apigratis)
-[![license mit](https://poser.pugx.org/jhowbhz/apigratis/license.svg)](https://www.npmjs.com/package/@jhowbhz/apigratis)
+[![latest stable version](https://poser.pugx.org/jhowbhz/apigratis/v/stable.svg)](https://www.npmjs.com/package/apigratis)
+[![license mit](https://poser.pugx.org/jhowbhz/apigratis/license.svg)](https://www.npmjs.com/package/apigratis)
 <a href="https://github.com/jhowbhz/package-apigratis-npm/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/jhowbhz/package-apigratis-npm"></a>
 <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/jhowbhz/package-apigratis-npm/total">
 <a href="https://github.com/jhowbhz/package-apigratis-npm/network" target="_blank"><img alt="GitHub forks" src="https://img.shields.io/github/forks/jhowbhz/package-apigratis-npm"></a>
