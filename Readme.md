@@ -34,7 +34,8 @@
 In development.
 
 ```js
-let start = request('https://whatsapp.contrateumdev.com.br', 'YOUR_TOKEN', 'start', null, {
+let server = `https://whatsapp.contrateumdev.com.br`;
+let start = request(server, 'YOUR_TOKEN', 'start', null, {
     "session": `YOUR_SESSION`,
     "sessionkey": `YOUR_SESSION_KEY`,
     "wh_status": ``,
@@ -47,7 +48,8 @@ console.log(start);
 ```
 
 ```js
-let qrcode = request('https://whatsapp.contrateumdev.com.br', null, 'qrcode', null, {
+let server = `https://whatsapp.contrateumdev.com.br`;
+let qrcode = request(server, null, 'qrcode', null, {
     "session": `YOUR_SESSION`,
     "sessionkey": `YOUR_SESSION_KEY`,
 });
