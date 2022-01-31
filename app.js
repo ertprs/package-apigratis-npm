@@ -1,5 +1,3 @@
-const poo = require('wrap-with-poo');
-const boring = 'This is a boring string';
-const fun = poo(boring);
+const apigratis = require('apigratis');
 
-console.log(fun);
+console.log(apigratis);
