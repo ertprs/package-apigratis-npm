@@ -1,6 +1,6 @@
 {
   "name": "apigratis",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "A simple way to consume free services offered by the APIGratis website",
   "homepage": "https://apigratis.com.br",
   "author": {
@@ -37,7 +37,6 @@
     "url": "https://github.com/jhowbhz/package-apigratis-npm.git"
   },
   "dependencies": {
-    "apigratis": "^0.2.5",
     "axios": "^0.25.0",
     "typescript": "^4.0.3"
   },
