@@ -3,3 +3,5 @@
 ~/.npmrc
 node_modules/apigratis/.github/FUNDING.yml
 node_modules/
+dist
+*.lock

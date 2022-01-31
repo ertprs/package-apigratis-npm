@@ -1,6 +1,6 @@
 {
   "name": "apigratis",
-  "version": "0.2.9",
+  "version": "0.3.1",
   "description": "A simple way to consume free services offered by the APIGratis website",
   "homepage": "https://apigratis.com.br",
   "author": {
@@ -9,7 +9,7 @@
     "url": "https://apigratis.com.br"
   },
   "type": "module",
-  "main": "./APIGratis.ts",
+  "main": "dist/App.js",
   "strict": true,
   "keywords": [
     "node",
@@ -20,10 +20,10 @@
     "apigratis"
   ],
   "scripts": {
-    "build": "tsc --project ./",
-    "test": "node ./test-directory/teste.js",
-    "start": "npm run build && node ./build/main.js",
-    "tsc": "tsc"
+    "build": "tsc -p .",
+    "dev": "ts-node-dev --inspect --ignore-watch node_modules src/app.ts",
+    "start": "node dist/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "funding": {
     "type": " Buy me a coffee",
@@ -46,5 +46,9 @@
   "engines": {
     "node": ">=16.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4"
+  }
 }
