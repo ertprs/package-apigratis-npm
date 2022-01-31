@@ -1,4 +1,4 @@
-# APIGratis 🚀
+# Package APIGratis 🚀
 ![APIGratis Banner](https://i.imgur.com/AK7iWyF.png)
 > 🚨 This package is under development, we do not recommend using it in production.
 
@@ -19,9 +19,6 @@
 [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/KsxrUGIPWvUBYAjI1ogaGs)
 [![YouTube](https://img.shields.io/youtube/channel/subscribers/UC-_mG5VU7maEKt5rUj8tSbQ?label=YouTube)](https://www.youtube.com/channel/UC-_mG5VU7maEKt5rUj8tSbQ)
 
-## Install package with npm
-```npm install apigratis```
-
 ## Status developing
 
 | Up  | Services available            | Description       | Free    | Beta        | Stable   |
@@ -30,8 +27,10 @@
 | ⌚ | CorreiosService                | API CEP or Tracker packages, correios Brazil.      |   💰   | Loading                   | Loading                   |
 | ⌚ | SinespService                  | API Plate get infos vehicle.       |   💰   | Loading                   | Loading                   |
 
-## WhatsAppService - Examples usage
+## Install package with npm
+```npm install apigratis```
 
+## WhatsAppService - Examples usage
 #### Start
 ```js
 import {service} from 'apigratis';
