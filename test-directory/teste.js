@@ -1,7 +1,7 @@
-import { service } from 'apigratis';
+import APIGratis from 'apigratis';
 
 let server = `https://whatsapp.contrateumdev.com.br`;
-let start = service(server, 'YOUR_TOKEN', `start`, null, {
+let start = ApiGratis.service(server, 'YOUR_TOKEN', `start`, null, {
     "session": `YOUR_SESSION`,
     "sessionkey": `YOUR_SESSION_KEY`,
     "wh_status": ``,

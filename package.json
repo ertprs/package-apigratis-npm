@@ -1,15 +1,28 @@
 {
   "name": "apigratis",
-  "version": "0.2.0",
-  "description": "",
-  "main": "app.ts",
+  "version": "0.2.2",
+  "description": "A simple way to consume free services offered by the APIGratis website",
+  "homepage": "https://apigratis.com.br",
+  "author": "APIGratis <contato@apigratis.com.br> (https://apigratis.com.br)",
   "type": "module",
+  "main": "./ApiGratis.ts",
+  "strict": true,
   "keywords": [
     "node",
-    "npm"
+    "npm",
+    "typescript",
+    "whatsapp",
+    "api",
+    "apigratis"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test-directory/teste.js",
+    "start":"npm run build && node ./build/main.js",
+    "build":"tsc "
+  },
+  "funding": {
+    "type": "Buy me a coffee",
+    "url": "https://issuehunt.io/r/jhowbhz"
   },
   "bugs": {
     "url": "https://github.com/jhowbhz/package-apigratis-npm/issues"
@@ -18,13 +31,14 @@
     "type": "git",
     "url": "https://github.com/jhowbhz/package-apigratis-npm.git"
   },
-  "homepage": "https://github.com/jhowbhz/package-apigratis-npm",
-  "author": "APIGratis",
-  "license": "MIT",
   "dependencies": {
     "axios": "^0.25.0"
   },
   "publishConfig": {
     "@jhowbhz:registry": "https://npm.pkg.github.com"
-  }
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "MIT"
 }
