@@ -2,7 +2,7 @@ import axios from "axios";
 
 let config = {};
 
-export function request(server, apitoken, action, method, body) {
+export function request(server: any, apitoken: any, action: any, method: any, body: any) {
 
     switch(action){
         case 'start':

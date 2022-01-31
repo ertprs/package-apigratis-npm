@@ -1,8 +1,9 @@
-const apigratis = require('apigratis');
+import { service } from 'apigratis';
 
-let start = apigratis?.request('https://whatsapp.contrateumdev.com.br', '5E22BC1231XGFQ36B7CEA234F35C47651A6', 'start', null, {
-    "session": `sessao`,
-    "sessionkey": `1234`,
+let server = `https://whatsapp.contrateumdev.com.br`;
+let start = service(server, 'YOUR_TOKEN', `start`, null, {
+    "session": `YOUR_SESSION`,
+    "sessionkey": `YOUR_SESSION_KEY`,
     "wh_status": ``,
     "wh_message": ``,
     "wh_qrcode": ``,
