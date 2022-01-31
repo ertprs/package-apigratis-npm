@@ -1,5 +1,5 @@
 # APIGratis 🚀
-![APIGratis Banner](https://i.imgur.com/u6hYLsU.png)
+![APIGratis Banner](https://i.imgur.com/AK7iWyF.png)
 > 🚨 This package is under development, we do not recommend using it in production.
 
 [![npm version](https://img.shields.io/npm/v/apigratis.svg?color=green)](https://www.npmjs.com/package/apigratis)
