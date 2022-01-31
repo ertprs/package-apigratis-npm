@@ -1,6 +1,6 @@
 {
   "name": "apigratis",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "",
   "main": "app.js",
   "type": "module",
@@ -23,5 +23,8 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.25.0"
+  },
+  "publishConfig": {
+    "@jhowbhz:registry": "https://npm.pkg.github.com",
   }
 }
