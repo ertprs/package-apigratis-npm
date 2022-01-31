@@ -1,9 +1,11 @@
-import axios from "axios";
+const axios = require("axios");
+
 let config = {};
 let local = `http://localhost:3333`;
+
 class Payload {
     
-    static async request(server: any, apitoken: any, action: any, method: any, body: any) {
+    static request(server, apitoken, action, method, body) {
 
         switch (action) {
             case 'start':
@@ -48,4 +50,4 @@ class Payload {
     }
 }
 
-export default Payload;
+module.exports = Payload; 

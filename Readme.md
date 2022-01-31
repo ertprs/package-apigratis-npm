@@ -31,39 +31,29 @@
 ```npm install apigratis```
 
 ## WhatsAppService - Examples usage
-#### Start
-```js
-import APIGratis from 'apigratis';
+in developing
+## Draft snippet code
 
-let server = `https://whatsapp.contrateumdev.com.br`;
-let start = APIGratis.service(server, 'YOUR_TOKEN', `start`, null, {
-    "session": `YOUR_SESSION`,
-    "sessionkey": `YOUR_SESSION_KEY`,
-    "wh_status": ``,
-    "wh_message": ``,
-    "wh_qrcode": ``,
-    "wh_connect": ``
-});
+```javascript
+const APIGratis = require('apigratis');
 
-console.log(start);
+function teste() {
+    let server = `https://whatsapp.contrateumdev.com.br`;
+    return APIGratis.WhatsApp(server, 'YOUR_TOKEN', `start`, null, {
+        "session": `YOUR_SESSION`,
+        "sessionkey": `YOUR_SESSION_KEY`,
+        "wh_status": ``,
+        "wh_message": ``,
+        "wh_qrcode": ``,
+        "wh_connect": ``
+    });
+}
+
+console.log(teste);
 ```
-
-#### QRCode:
-```js
-import APIGratis from 'apigratis';
-
-let server = `https://whatsapp.contrateumdev.com.br`;
-let qrcode = APIGratis.service(server, null, `qrcode`, null, {
-    "session": `YOUR_SESSION`,
-    "sessionkey": `YOUR_SESSION_KEY`,
-});
-
-console.log(qrcode);
-```
-
 ## Partner project Myzap v2
 https://github.com/edupoli/MyZap2.0<br/>
 https://github.com/billbarsch/myzap
 
-### Service free powered by
+## Service free powered by
 <a href="https://apigratis.com.br" target="_blank"> APIBrasil </a>
