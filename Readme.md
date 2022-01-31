@@ -31,11 +31,13 @@
 | ⌚ | SinespService                  | API Plate get infos vehicle.       |   💰   | Loading                   | Loading                   |
 
 ## WhatsAppService - Examples usage
-In development.
 
+#### Start
 ```js
+const apigratis = require('apigratis');
+
 let server = `https://whatsapp.contrateumdev.com.br`;
-let start = request(server, 'YOUR_TOKEN', 'start', null, {
+let start = apigratis?.service(server, 'YOUR_TOKEN', `start`, null, {
     "session": `YOUR_SESSION`,
     "sessionkey": `YOUR_SESSION_KEY`,
     "wh_status": ``,
@@ -47,9 +49,12 @@ let start = request(server, 'YOUR_TOKEN', 'start', null, {
 console.log(start);
 ```
 
+#### QRCode:
 ```js
+const apigratis = require('apigratis');
+
 let server = `https://whatsapp.contrateumdev.com.br`;
-let qrcode = request(server, null, 'qrcode', null, {
+let qrcode = apigratis?.service(server, null, `qrcode`, null, {
     "session": `YOUR_SESSION`,
     "sessionkey": `YOUR_SESSION_KEY`,
 });
