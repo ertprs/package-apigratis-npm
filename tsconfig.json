@@ -1,11 +1,15 @@
 {
-    "compilerOptions":{
-       "target":"ESNEXT",
-       "module":"commonjs",
-       "outDir":"./build",
-       "rootDir":"./" /* assuming that your code live in ./ */,
-       "moduleResolution":"node",
-       "baseUrl":".",
-       "esModuleInterop": true
-     }
-   }
+  "compilerOptions": {   
+    "target": "es2017",
+    "module": "ESNext",
+    "lib": ["ES2017"],  
+    "outDir": "./build",
+    "rootDir": "./",
+    "strict": true,
+    "moduleResolution": "node", 
+    "esModuleInterop": true, 
+    /* Advanced Options */
+    "skipLibCheck": true, 
+    "forceConsistentCasingInFileNames": true   
+  }
+}

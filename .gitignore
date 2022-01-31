@@ -1,2 +1,5 @@
 ./package-lock.json
-/node_modules
+./node_modules
+~/.npmrc
+node_modules/apigratis/.github/FUNDING.yml
+node_modules/

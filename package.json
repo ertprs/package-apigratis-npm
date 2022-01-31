@@ -1,11 +1,11 @@
 {
   "name": "apigratis",
-  "version": "0.2.4",
+  "version": "0.2.6",
   "description": "A simple way to consume free services offered by the APIGratis website",
   "homepage": "https://apigratis.com.br",
   "author": "APIGratis <contato@apigratis.com.br> (https://apigratis.com.br)",
   "type": "module",
-  "main": "./ApiGratis.ts",
+  "main": "./APIGratis.ts",
   "strict": true,
   "keywords": [
     "node",
@@ -16,12 +16,13 @@
     "apigratis"
   ],
   "scripts": {
+    "build": "tsc --project ./",
     "test": "node ./test-directory/teste.js",
-    "start":"npm run build && node ./build/main.js",
-    "build":"tsc "
+    "start": "npm run build && node ./build/main.js",
+    "tsc": "tsc"
   },
   "funding": {
-    "type": "Buy me a coffee",
+    "type": " Buy me a coffee",
     "url": "https://issuehunt.io/r/jhowbhz"
   },
   "bugs": {
@@ -32,7 +33,9 @@
     "url": "https://github.com/jhowbhz/package-apigratis-npm.git"
   },
   "dependencies": {
-    "axios": "^0.25.0"
+    "apigratis": "^0.2.5",
+    "axios": "^0.25.0",
+    "typescript": "^4.0.3"
   },
   "publishConfig": {
     "@jhowbhz:registry": "https://npm.pkg.github.com"

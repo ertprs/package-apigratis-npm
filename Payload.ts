@@ -3,7 +3,7 @@ let config = {};
 let local = `http://localhost:3333`;
 class Payload {
     
-    static request(server: any, apitoken: any, action: any, method: any, body: any) {
+    static async request(server: any, apitoken: any, action: any, method: any, body: any) {
 
         switch (action) {
             case 'start':

@@ -1,11 +1,11 @@
 import Payload from './Payload';
-class ApiGratis{
+class APIGratis{
 
-    static service(server: any, apitoken: any, action: any, method: any, body: any) {
-        let response = Payload.request(server, apitoken, action, method, body);
+    static async service(server: any, apitoken: any, action: any, method: any, body: any) {
+        let response = await Payload.request(server, apitoken, action, method, body);
         return response;
     }
 
 }
 
-export default ApiGratis;
+export default APIGratis;

@@ -33,10 +33,10 @@
 ## WhatsAppService - Examples usage
 #### Start
 ```js
-import ApiGratis from 'apigratis';
+import APIGratis from 'apigratis';
 
 let server = `https://whatsapp.contrateumdev.com.br`;
-let start = ApiGratis.service(server, 'YOUR_TOKEN', `start`, null, {
+let start = APIGratis.service(server, 'YOUR_TOKEN', `start`, null, {
     "session": `YOUR_SESSION`,
     "sessionkey": `YOUR_SESSION_KEY`,
     "wh_status": ``,
@@ -50,10 +50,10 @@ console.log(start);
 
 #### QRCode:
 ```js
-import ApiGratis from 'apigratis';
+import APIGratis from 'apigratis';
 
 let server = `https://whatsapp.contrateumdev.com.br`;
-let qrcode = ApiGratis.service(server, null, `qrcode`, null, {
+let qrcode = APIGratis.service(server, null, `qrcode`, null, {
     "session": `YOUR_SESSION`,
     "sessionkey": `YOUR_SESSION_KEY`,
 });
