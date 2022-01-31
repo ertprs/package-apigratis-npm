@@ -1,3 +1,1 @@
-const apigratis = require('apigratis');
-
-console.log(apigratis);
+console.log('\o/ Hello\nit is a alpha test apigratis version 0.0.9');
