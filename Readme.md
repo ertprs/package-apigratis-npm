@@ -34,10 +34,10 @@
 
 #### Start
 ```js
-const apigratis = require('apigratis');
+import {service} from 'apigratis';
 
 let server = `https://whatsapp.contrateumdev.com.br`;
-let start = apigratis?.service(server, 'YOUR_TOKEN', `start`, null, {
+let start = service(server, 'YOUR_TOKEN', `start`, null, {
     "session": `YOUR_SESSION`,
     "sessionkey": `YOUR_SESSION_KEY`,
     "wh_status": ``,
@@ -51,10 +51,10 @@ console.log(start);
 
 #### QRCode:
 ```js
-const apigratis = require('apigratis');
+import {service} from 'apigratis';
 
 let server = `https://whatsapp.contrateumdev.com.br`;
-let qrcode = apigratis?.service(server, null, `qrcode`, null, {
+let qrcode = service(server, null, `qrcode`, null, {
     "session": `YOUR_SESSION`,
     "sessionkey": `YOUR_SESSION_KEY`,
 });
