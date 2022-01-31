@@ -1,1 +1,6 @@
-console.log('\o/ Hello\nit is a alpha test apigratis version 0.0.9');
+import { request } from './request.js';
+
+async function service() {
+    let response = request(server, apitoken, action, method, body);
+    return response;
+}

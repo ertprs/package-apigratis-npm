@@ -1,8 +1,9 @@
 {
   "name": "apigratis",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "app.js",
+  "type": "module",
   "keywords": [
     "node",
     "npm"
@@ -19,5 +20,8 @@
   },
   "homepage": "https://github.com/jhowbhz/package-apigratis-npm",
   "author": "APIGratis",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
 }

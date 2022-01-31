@@ -33,6 +33,28 @@
 ## WhatsAppService - Examples usage
 In development.
 
+```js
+let start = request('https://whatsapp.contrateumdev.com.br', '5E22BC1231XGFQ36B7CEA234F35C47651A6', 'start', null, {
+    "session": `sessao`,
+    "sessionkey": `1234`,
+    "wh_status": ``,
+    "wh_message": ``,
+    "wh_qrcode": ``,
+    "wh_connect": ``
+});
+
+console.log(start);
+```
+
+```js
+let qrcode = request('https://whatsapp.contrateumdev.com.br', null, 'qrcode', null, {
+    "session": `sessao`,
+    "sessionkey": `1234`,
+});
+
+console.log(qrcode);
+```
+
 ## Partner project Myzap v2
 https://github.com/edupoli/MyZap2.0<br/>
 https://github.com/billbarsch/myzap
