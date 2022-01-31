@@ -1,9 +1,13 @@
 {
   "name": "apigratis",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "A simple way to consume free services offered by the APIGratis website",
   "homepage": "https://apigratis.com.br",
-  "author": "APIGratis <contato@apigratis.com.br> (https://apigratis.com.br)",
+  "author": {
+    "name": "APIGratis",
+    "email": "contato@apigratis.com.br",
+    "url": "https://apigratis.com.br"
+  },
   "type": "module",
   "main": "./APIGratis.ts",
   "strict": true,
