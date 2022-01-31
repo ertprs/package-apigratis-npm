@@ -1,6 +1,6 @@
 # Package APIGratis 🚀
 ![APIGratis Banner](https://i.imgur.com/AK7iWyF.png)
-> 🚨 This package is under development, we do not recommend using it in production.
+> ⚠️ This package is under development, we do not recommend using it in production.
 
 [![npm version](https://img.shields.io/npm/v/apigratis.svg?color=green)](https://www.npmjs.com/package/apigratis)
 [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/jhowbhz/package-apigratis-npm.svg)](https://isitmaintained.com/project/jhowbhz/apigratis 'Average time to resolve an issue')
